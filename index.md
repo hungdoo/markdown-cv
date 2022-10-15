@@ -1,16 +1,14 @@
 ---
 layout: cv
-title: Ben Moore's CV
+title: Hung N. Dong's CV
 ---
-# Benjamin L. Moore
-Bioinformatics PhD and Solutions Architect
+# Hung N. Dong
+Software Engineer
 
 <div id="webaddress">
-<a href="mailto:ben@blm.io">ben@blm.io</a>
+<a href="mailto:nhuthung.dong@gmail.com">nhuthung.dong@gmail.com</a>
 |
-<i class="fa fa-github"></i> <a href="http://github.com/blmoore">blmoore</a>
-|
-<i class="fa fa-twitter"></i> <a href="http://twitter.com/benjaminlmoore">benjaminlmoore</a>
+<i class="fa fa-github"></i> <a href="http://github.com/hungdoo">hungdoo</a>
 </div>
 
 
@@ -166,6 +164,3 @@ Worked for two summers on the Rfam database ([rfam.xfam.org](http://rfam.xfam.or
 
 Available on request.
 
-<!-- ### Footer
-
-Last updated: May 2013 -->

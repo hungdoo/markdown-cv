@@ -1,14 +1,25 @@
 # Example script to generate HTML and push to local gh-pages directory.
+REMOTE_USER=$1
+REMOTE_SERVER=$2
+
+function print_help () {
+  echo "Run ./publish.sh <remote_user> <server_url>"
+  exit 1
+}
+
+[ -z ${REMOTE_USER} ] && { echo 'Missing user info'; print_help; }
+[ -z ${REMOTE_SERVER} ] && { echo 'Missing server info'; print_help; }
 
 # build site from markdown
-jekyll build
+docker run --rm -v $(pwd):/src -w /src jekyll/jekyll:latest jekyll build
 
-# path on your system to your github pages repo checkout
-SITE_DIR=../blmoore.github.io/cv/
-
-# remove old files
-rm -R ${SITE_DIR}*
-
-# re-add new
-cp _site/index.html ${SITE_DIR}.
-cp -R _site/media ${SITE_DIR}.
+# # deploy to webserver
+echo ""
+echo "-------"
+echo "Deploy to: ${REMOTE_USER}@${REMOTE_SERVER}"
+scp -r _site/ ${REMOTE_USER}@${REMOTE_SERVER}:/home/${REMOTE_USER}
+# # Volumes from container
+ssh ${REMOTE_USER}@${REMOTE_SERVER} 'docker run --rm --volumes-from nginx_website \
+  -v /home/'"${REMOTE_USER}"'/_site:/src alpine:latest /bin/sh -c \
+  "cp -r /src/index.html /src/media /src/fonts /usr/share/nginx/html/" && \
+  rm -rf /home/'"${REMOTE_USER}"'/_site'
