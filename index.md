@@ -8,126 +8,134 @@ title: Hung N. Dong's CV
 Software Engineer
 
 <div id="webaddress">
-<a href="mailto:nhuthung.dong@gmail.com">nhuthung.dong@gmail.com</a>
+<i class="fa fa-solid fa-envelope"></i> <a href="mailto:nhuthung.dong@gmail.com">nhuthung.dong@gmail.com</a>
 |
-<i class="fa fa-github"></i> <a href="https://github.com/hungdoo">hungdoo</a>
+<i class="fa fa-solid fa-github"></i> <a href="https://github.com/hungdoo">GitHub</a>
 |
-<i class="fa fa-home"></i> <a href="https://hdhabits.space">Home Page</a>
-|
-<i class="fa fa-linkedin"></i> <a href="https://www.linkedin.com/in/hungdoo/">LinkedIn</a>
+<i class="fa fa-solid fa-globe"></i> <a href="https://pandora.digital">Pandora DEX</a>, <a href="https://prime.stably.io">Stably Prime Wallet</a>
+<!-- | -->
+<!-- <i class="fa fa-solid fa-home"></i> <a href="https://hdhabits.space">Home</a> -->
+<!-- <i class="fa fa-linkedin"></i> <a href="https://www.linkedin.com/in/hungdoo/">LinkedIn</a> -->
 </div>
 
-## Currently
+<br/>
+I'm a Software Engineer at [Yacoub Automation](https://www.yacoub.de/). Here, I work on technical solutions to in the Industrial IoT space, such as automated Remote Assets, Applications & Data Management. I enjoy solving hard problems by writing quality software, leveraging modern programming languages, agile development practices and cloud services.
 
-I'm a Software Engineer at [Yacoub](https://www.yacoub.de/). Here I work on solutions to key technology in the Industrial IoT space, such as efficient and automated Remote Assets, Application & Data Management. I enjoy solving hard problems by writing quality software, preferably leveraging modern programming languages, agile development practices and effective cloud services.
+## Skills
+
+- HTML, CSS, Typescript, React/Redux
+- CRA, Webpack, Vite
+- REST, OpenAPI, gRPC, GraphQL, Websocket
+- AntD, MaterialUI, Bootstrap
+- NestJs, Django
+- MongoDb, Postgresql
+- Jaeger, Sentry
+- ReactFlow, Recharts, TradingView
+- C/C++, Golang, Python
+- Yocto, Buildroot, Cmake
+- OpenCV, CUDA, Gstreamer
+- TinyYOLO, Tensorflow, TensorRT
+- Linux, AWS, Azure
+- Docker, Kubernetes, Portainer
+- Traefik, Nginx, API gateway
+- Netmaker VPN, Wireguard
+- Git, CI/CD
+- Agile, Scrum
+- Solidity, OpenZeppelin
+- Truffle, Hardhat
+- Subgraph
+- Web3js, Etherjs
+- ERC20, ERC721
+- DEX, NFT
+- DApps on Ethereum, BNB, Icon, Tezos
+- Qtum, Chia, Vechain
+- IELTS 6.5, TOEIC 925
 
 ## Employment
 
-`2020-`
-**Stably.io | Seattle, US** *[Remote]* | Fullstack Software Developer.
+`From 2022`
+**Yacoub Automation | Software Developer**
+
+-- Developing the cloud portal which provides the management dashboard to efficiently monitor the remote IIoT assets' activities, capturing & configuring machines' data and deploying Dockerized application updates.
+
+-- Stack: K8S, Typescript/React, Bootstrap, Material UI, Mongodb, NestJs
 
 
--- Developed & maintaining Stably Prime, the company’s flag- ship product that helps bridging assets from the real world into the crypto world.
+`2021-2022`
+**Pandora Digital | Frontend Software Developer**
 
--- Built well-tested React components (KYC, Asset De- posit/Withdrawal, etc.) as the foundation blocks constructing such pleasant UI.
+-- Developed & maintained Pandora Protocol (https://pandora.digital), a decentralized-finance project utilizing NFT capabilities (drafting, upgrading, staking, incentive sharing, marketplace, initial decentralized offering, etc.) to boost the platform's liquidity and user incentives.
 
--- Also put extensive focus on developing the Tokenization-as-a- Service backend in Golang which helps businesses issuing their own Stablecoins seamlessly on a variety of blockchains from Ethereum, Tezos, Qtum, Icon to Vechain, etc.
+-- The project has attracted more than $185 millions in trading volumes after 6 months since launch.
 
--- Developed & maintained a decentralized finance project utilizing NFT capabilities (staking, marketplace, auction, initial decentralized offering) to boost the platform’s liquidity and user incentives.
-
--- Reference: https://www.stably.io/stably-prime
-
-`2018-20`
-**Dynim/Pexraytech** | Software Engineer.
+-- Stack: NodeJs, Typescript, React, Redux, Styled Components, Postgres, Azure, Subgraph, GraphQL, EtherJs
 
 
--- Developed BioCam software solution to process visual signals of human beings into bio-metric information (Heart rate, Breathing rate & Body temperature)
+`2020-2021`
+**Stably.io | Seattle, US _[Remote]_ | Fullstack Software Developer**
 
--- Managed company’s internal & board-farm networks
+-- Worked on the company’s flag-ship product Stably Prime (https://prime.stably.io), which helps bridging assets from the real world into the crypto world.
 
--- Built and managing company’s local GitLab CI server
+-- Built well-tested React components (KYC, Asset Deposit/Withdrawal, On-chain data monitoring, etc.) to serve as the foundation blocks of the company's franchise-software service.
 
--- Designed communication protocol between C++ Backend and Qt Frontend via Websocket
+-- Developed the Tokenization-as-a-Service backend in Golang which helps businesses issuing their own Stablecoins seamlessly on a variety of blockchains from Ethereum, Tezos, Qtum, Icon to Vechain, etc.
 
--- Developed Python Backend and Frontend simulators to support quick prototyping
+-- Collaborated with trusted auditors to monitor on-chain transactions and verify against Custodian's holding assets.
 
--- Designed MPC9808 temperature sensor telemetrically reading via BLE using ESP32 module
+-- Stack: Go, Typescript, React, Redux, Antdesign, Postgres, Go-Ethereum, AWS Cloud
 
--- Optimized Jetson Nano image processing time utilizing CUDA parallel computing power
+
+`2018-2020`
+**Dynim/Pexraytech | Software Engineer**
+
+-- Developed BioCam software solution to process visually-captured data from human faces into the bio-metric information (Heart rate, Breathing rate & Body temperature)
+
+-- Optimized Jetson Nano image processing time utilizing CUDA parallel computing power, reached approx. 12fps.
+
+-- Stack: C++, Qt, Python, Websocket, OpenCV, CUDA, Face Detection, TinyYOLO, TensorRT.
+
 
 `2015-2018`
-**Renesas Design** | Software Engineer.
+**Renesas Design | Software Engineer**
 
+-- Maintained the Board Support and Multimedia Packages (drivers & libraries) for RZG-family evaluation boards.
 
--- Lead World-Wide Customer Support activities for RZ/G Linux Platform project
-
--- Developed automated test (UT/IT/ST) for Board Support and Multimedia Packages (Drivers and Libraries) of Embedded Linux System using bare-metal Python scripts
+-- Developed Gstreamer plugins on top of the builtin H264 Hardware Codec.
 
 -- Ported Linux Kernel device drivers to Civil Infrastructure Platform project: Serial, SPI, I2C, V4L2 Video capture, Display Unit, LVDS Touchscreen, HDMI transmitter, etc.
 
--- Debugged and recovery u-boot content on SPI flash using Trace32 emulators
+-- Owned the recovery process of the lost Bootloader content on flash memory utilizing the Trace32 emulator.
 
--- Developed Gstreamer plugins utilizing RZ/G SoC’s builtin H264 Hardware Codec to power Multimedia applications
+-- Joined the board testing activity. Discovered unusual bugs in the board's hardware layout which caused the driver not working properly.
 
-## Technical skills
-
-- Python
-- Javascript (incl. Typescript, React)
-- R
-- Go
-- AWS
-- UNIX
-- Cluster computing
-- Docker
-- Git and GitHub
-- HTML and CSS
-- Bash
-- Agile development
-- C/C++
-- Python
-- Golang
-- React
-- Typescript
-- Linux
-- VsCode
-- Git
-- Docker
-- CI/CD
-- AWS
-- Geth (Go Ethereum package)
-- Web3js
-- Infura
-- Solidity
-- Dapps on Ethereum
-- Icon
-- Tezos
-- Qtum
-- Chia
-- Vechain
-- IELTS 6.5
-- TOEIC 925
 
 ## Education
 
-`2011-2015`
-**Frankfurt University of Applied Sciences** | B.S. of Electrical Engineering and Information Technology.
+`2014-2015`
+**Frankfurt University of Applied Sciences**
 
-*(GPA: 3.73/4.0)*
+B.S. of Electrical Engineering and Information Technology
+
+`2011-2014`
+**Vietnamese German University**
+
+B.S. of Electrical Engineering and Information Technology
+
 
 ## Projects
 
-**Crypto Tracking/Notification via Telegram/Slackbot**
+**Blockchain bot on Telegram & Slack**
 
--- Tracks and notifies various types of assets: wallet balance, Dex liquidity, Debt ratio, Liquidation alert on DeFi lending, etc.
+-- Tracks and notifies various types of assets: trading ativities, wallet balances, DEX liquidity, Debt ratio, Liquidation alert on DeFi lending, etc.
 
-**Vietnamese German University’s Alumni Website project (vgualumni.org)**
+**Vietnamese German University’s Alumni Website project**
 
--- Site built on Django, Nuxt, Postgresql, Nginx stack
+-- Site built on Django, Nuxt, Postgresql, Nginx stack.
 
--- Managing a circle of 200+ Alumni contacts
+-- Managing a circle of 200+ Alumni contacts.
 
 **Thesis dissertation: PID model for Anti-Heeling system system of a Ship deck model**
 
--- Measured and analysed the open-loop behaviour of the Ship model’s Heeling motion
+-- Measured and analysed the open-loop behaviour of the Ship model’s Heeling motion.
 
--- Designed PID controller to stabilize the system against heavy loads
+-- Designed PID controller to stabilize the system against heavy loads.

@@ -11,7 +11,7 @@ function print_help () {
 [ -z ${REMOTE_SERVER} ] && { echo 'Missing server info'; print_help; }
 
 # build site from markdown
-docker run --rm -v $(pwd):/src -w /src jekyll/jekyll:latest jekyll build
+docker run --rm -v $(pwd):/src -w /src jekyll/jekyll:4.2.2 jekyll build
 
 # # deploy to webserver
 echo ""
